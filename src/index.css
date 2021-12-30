@@ -1,0 +1,86 @@
+
+body{
+    background-color: #221E22;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+    margin: 0;
+    font-family: 'Bad Script', cursive;
+    color: #ECA72C;
+  }
+
+  h1{
+    text-align: left;
+    margin-top: 40px;
+    padding:auto;
+    color: #ECA72C;
+  }
+
+  h5{
+    text-align: center;
+    padding:auto;
+    color: #ECA72C;
+  }
+
+  .btn {
+    width: 45%;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    background-color: #31263E;
+    color: white;
+}
+
+
+.loader {
+  border: 16px solid #e2e2e2;
+  /*Lightgrey*/border-top: 16px solid #ECA72C;
+  /*Blue*/border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+  margin: 0 auto;
+
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+  @media (prefers-reduced-motion: no-preference) {
+    .Gifs{
+      display:block;
+      margin:auto;
+      width: 50%;
+      border-radius: 20px;
+      -webkit-border-radius: 20px;
+      -moz-border-radius: 20px;
+      -ms-border-radius: 20px;
+      -o-border-radius: 20px;
+}
+  }
+  
+  @media (max-width: 991px) {
+    .Gifs{
+      display:block;
+      margin:auto;
+      width: 80%;
+    }
+  }
+  @media (max-width: 947px){
+    .Gifs{
+      display:block;
+      margin:auto;
+      width: 80%;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .Gifs{
+      display:block;
+      margin:auto;
+      width: 80%;
+    }
+  }
